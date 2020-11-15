@@ -1,0 +1,209 @@
+@font-face {
+    font-family: TTNorms_Medium;
+    src: url('TTNorms-Medium.otf');
+    }
+    
+@font-face {
+    font-family: TTNorms_Regular;
+    src: url('TTNorms-Regular.otf');
+}
+
+@font-face {
+    font-family: TTNorms_Bold;
+    src: url('TTNorms-Bold.otf');
+}
+
+body {
+    margin: 0px;
+    font-family: TTNorms_Medium;
+    background:#4912f6;
+}
+
+h1 {
+    font-family: TTNorms_Bold;
+    font-size: 46px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    position: relative;
+}
+
+h2 {
+    font-family: TTNorms_Regular;
+    font-size: 36px;
+    margin: 0;
+    font-weight: 100;
+    color: white;
+    position: relative;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: #fff;
+    font-family: TTNorms_Medium;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 19px 30px;
+    background:linear-gradient(90deg,#ea9e3d 30%,#ee7a38);
+    border-radius: 60px;
+    font-size: 20px;
+    max-width: 220px;
+}
+
+.container {
+    height: 100px;
+    width: 100%;
+}
+
+.navbar_formatting {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1100px;
+}
+
+.whitespace {
+    margin-top: 40%;
+}
+
+.whitespace_small {
+    margin-top: 10%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    max-width: 525px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 40px 30px;
+
+}
+
+.body_formatting {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1100px;
+}
+
+.brain_fm {
+    color: #fff;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.logo_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 2px;
+}
+
+.sign_in {
+    color: #d1cbfd;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.clout {
+    padding: 0 0 40px;
+}
+
+.featured_in {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color:hsla(0,0%,100%,.7);
+}
+
+.clout_text {
+    color:hsla(0,0%,100%,.7);
+    padding: 20px 0;
+    font-size: 19px;
+    max-width: 525px;
+    position: relative;
+}
+
+.desk {
+    height: 550px;
+    display: flex;
+    margin-left: -100px;
+    margin-top: -140px;
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.body_text {
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+
+.body_links {
+    font-family: TTNorms_Bold;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.test   {
+    max-width: 450px;
+    height: 230px;
+    text-align: center;
+}
+
+#brainwave {
+    width: 450px;
+}
+
+#see_science {
+    font-family: TTNorms_Bold;
+    color: #d1cbfd;
+    font-size: 20px;
+    cursor: pointer; 
+    font-weight: bold;   
+}

@@ -1,2 +1,2 @@
-# Assignment-1
-Assignment 1 - Brain.FM Clone
+# Assignment-1-Brain.FM
+Assignment 1 - Brain.FM mock design, showing HTML and CSS (Initial commit)

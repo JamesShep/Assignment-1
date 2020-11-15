@@ -1,0 +1,156 @@
+<!-- Created by James Sheppard
+
+    I know to use <input type="button" <value> > Just since I didn't need them to actually link anywhere,
+    I just set them as the default.  
+
+    Still a couple of small formatting issues i'd like to fix. But I feel it was a good challenge to get to this stage, and
+    definitely challenged me on some parts > flex boxes and their formatting in particular.
+
+    I opted for making 2 seperate 'columns' to get the split body. However would like to learn more on how to bring an element
+    from below to the side, as this allows for better mobile viewing when the screen is smaller.
+
+    Might have been able to do it with less div boxes. But just seemed required for some formatting
+
+    Practice makes perfect :)
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Brain.FM Clone</title>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="stylesheet" href="./Brain-FM.css"/>
+    </head>
+    <body>
+        <div class="">
+            <div class="navbar_formatting">
+                <a href="/">
+                <div class="logo_wrapper">
+                    <img src="./index.svg" class="logo"/>
+                    <span class ="brain_fm" >
+                        Brain.fm
+                    </span>
+                </div>
+                </a>
+                <div class="login_wrapper">
+                    <div>
+                       <a class="sign_in"> Sign In</a>
+                    </div>
+                    <div>
+                        <button class="orange_button"> 
+                            Try for free
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="body_formatting">
+                <div class="whitespace">
+                    <div class="row">
+                        <div class="column">
+                            <div>
+                                <h2>
+                                    Functional Music to Improve
+                                </h2>
+                            </div>
+                            <div>
+                                <h1>
+                                    Focus in 15 Minutes
+                                </h1>
+                            </div>
+                            <div class="clout_text">
+                                Our science-first approach creates music that sounds
+                                different-and affects your brain differently-than any other music.
+                            </div>
+                            <div class="clout">
+                                <div class="featured_in">
+                                    FEATURED IN
+                                </div>
+                                <div>
+                                    <img src="./clout.png"/>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="orange_button_free">
+                                    Try 5 free sessions
+                                </button>  
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div>
+                                <img class ="desk" src="./picture-1.gif"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="whitespace">
+                    <div class="center" >
+                        <a id ="see_science" href="/" >
+                            Wanna see the science?
+                        </a>
+                    </div>
+                </div>
+                <div class="whitespace_small">
+                    <div class ="body_text">
+                        <div class="row2">
+                            <div class="column2">
+                                <div>
+                                    <img id="brainwave" src="./picture-2.gif"/>
+                                </div>
+                                <div>
+                                    <h3>
+                                        Patented Technology
+                                    </h3>
+                                    <p>
+                                        Brain.fm holds patents on key processes 
+                                        for creating functional music, including technology 
+                                        to elicit <b>strong neural phase locking</b>—allowing
+                                        populations of neurons to engage in various 
+                                        kinds of coordinated activity—and technology 
+                                        to remove distraction in sound.<br>
+                                        <br>
+                                        This makes our music unique, purpose-built to 
+                                        steer you into a desired mental state. In other words, 
+                                        we’ve found new ways to create music that helps you 
+                                        do what you need to do.
+                                    </p>
+                                    <a class="body_links" href="/">
+                                        Explore More of Our Science
+                                    </a>
+                                </div>
+                            </div>
+                            <div class ="column2">
+                                <div class="test">
+                                    <img id="phase_locking_value_chart" src="./picture-3.png">
+                                </div>
+                                <div>
+                                    <h3>
+                                        Tested on Brain and Behavior
+                                    </h3>
+                                    <p>
+                                        Scientists at Brain.fm work with collaborators at 
+                                        academic institutions to run experiments.<br>
+                                        <br>
+                                        We look at the effects of our technology on the brain, 
+                                        using fMRI and EEG, and also run large-scale 
+                                        behavioral tests, measuring performance on simple 
+                                        games. <br>
+                                        <br>
+                                        <b>Our experiments always include a control condition 
+                                        (‘placebo’)</b> of the same underlying music without 
+                                        Brain.fm technology applied, so we can be sure our 
+                                        tech is what makes the difference.
+                                    </p>
+                                    <a class="body_links" href="/">
+                                        Visit the science page to see our latest results.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
